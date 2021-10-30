@@ -300,7 +300,7 @@ public class StatusBar extends SystemUI implements DemoMode,
     static public final String SYSTEM_DIALOG_REASON_SCREENSHOT = "screenshot";
 
     private static final String NAVIGATION_BAR_SHOW =
-            "system:" + Settings.System.NAVIGATION_BAR_SHOW;
+            "customsystem:" + Settings.System.NAVIGATION_BAR_SHOW;
     private static final String STATUS_BAR_SHOW_TICKER =
             "system:" + Settings.System.STATUS_BAR_SHOW_TICKER;
     private static final String STATUS_BAR_SHOW_LYRIC =
@@ -309,7 +309,6 @@ public class StatusBar extends SystemUI implements DemoMode,
             "system:" + Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE;
     private static final String STATUS_BAR_TICKER_TICK_DURATION =
             "system:" + Settings.System.STATUS_BAR_TICKER_TICK_DURATION;
-            "customsystem:" + Settings.System.NAVIGATION_BAR_SHOW;
     public static final String SCREEN_BRIGHTNESS_MODE =
             "system:" + Settings.System.SCREEN_BRIGHTNESS_MODE;
     private static final String STATUS_BAR_BRIGHTNESS_CONTROL =
