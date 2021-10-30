@@ -466,8 +466,6 @@ public class StatusBar extends SystemUI implements DemoMode,
     private final TunerService mTunerService;
     private NotificationsController mNotificationsController;
 
-    protected TaskHelper mTaskHelper;
-
     // viewgroup containing the normal contents of the statusbar
     LinearLayout mStatusBarContent;
 
