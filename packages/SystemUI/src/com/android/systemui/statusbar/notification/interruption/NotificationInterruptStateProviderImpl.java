@@ -123,10 +123,6 @@ public class NotificationInterruptStateProviderImpl implements NotificationInter
                     Settings.Global.getUriFor(SETTING_HEADS_UP_TICKER), true,
                     mHeadsUpObserver);
             mContentResolver.registerContentObserver(
-                    Settings.System.getUriFor(Settings.System.LESS_BORING_HEADS_UP),
-                    true,
-                    mHeadsUpObserver);
-            mContentResolver.registerContentObserver(
                     Settings.System.getUriFor(Settings.System.STATUS_BAR_SHOW_TICKER),
                     true,
                     mHeadsUpObserver);
