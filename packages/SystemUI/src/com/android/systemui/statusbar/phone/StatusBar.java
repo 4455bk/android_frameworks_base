@@ -3119,6 +3119,24 @@ public class StatusBar extends SystemUI implements DemoMode,
         return anim;
     }
 
+    public Ticker getTicker() {
+        return mTicker;
+    }
+
+    public boolean isTickerEnabled() {
+        return mTicker != null && mTickerEnabled != 0;
+    }
+
+    public boolean isMusicTickerEnabled() {
+        return mTicker != null && mTickerEnabled == 2;
+    }
+
+    public void resetTrackInfo() {
+        if (mTicker != null) {
+            mTicker.resetShownMediaMetadata();
+        }
+    }
+
     public void haltTicker() {
         if (mTicker != null && mTickerEnabled != 0) {
             mTicker.halt();
