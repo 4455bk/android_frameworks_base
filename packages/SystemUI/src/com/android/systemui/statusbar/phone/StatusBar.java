@@ -1312,7 +1312,6 @@ public class StatusBar extends SystemUI implements DemoMode,
                     checkBarModes();
                     mStatusBarLeftSide = (LinearLayout) mStatusBarView.findViewById(R.id.status_bar_left_side);
                     mCenteredIconArea = mStatusBarView.findViewById(R.id.centered_icon_area);
-                    handleCutout(null);
                     mStatusBarContent = (LinearLayout) mStatusBarView.findViewById(R.id.status_bar_contents);
                     mBurnInProtectionController =
                         new BurnInProtectionController(mContext, this, mStatusBarView);
