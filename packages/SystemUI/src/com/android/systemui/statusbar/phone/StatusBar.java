@@ -5242,7 +5242,7 @@ public class StatusBar extends SystemUI implements DemoMode,
         } else if (STATUS_BAR_SHOW_TICKER.equals(key)) {
             mTickerEnabled = TunerService.parseInteger(newValue, 0);
         } else if (STATUS_BAR_SHOW_LYRIC.equals(key)) {
-            mLyricEnabled = TunerService.parseIntegerSwitch(newValue, false);
+            mLyricEnabled = TunerService.parseIntegerSwitch(newValue, true);
             SystemProperties.set(Instrumentation.EXTHM_STATUS_BAR_LYRIC_PROP, mLyricEnabled ? "true" : "false");
             if (mLyricEnabled == false) {
                 haltLyricTicker();
