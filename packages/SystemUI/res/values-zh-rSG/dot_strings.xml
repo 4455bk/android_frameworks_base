@@ -106,7 +106,7 @@
     <!-- Sound QS tile -->
     <string name="quick_settings_sound_label">聲音</string>
     <string name="quick_settings_sound_ring">響鈴</string>
-    <string name="quick_settings_sound_vibrate">震動</string>
+    <string name="quick_settings_sound_vibrate">振動</string>
     <string name="quick_settings_sound_dnd">勿擾</string>
     <!-- Screenrecorder -->
     <string name="screenrecord_stopdot_label">Show stop dot\nLongpress to move it</string>

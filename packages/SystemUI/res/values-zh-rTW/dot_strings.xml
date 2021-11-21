@@ -77,7 +77,7 @@
     <string name="qs_data_switch_changed_2">使用 SIM 2 的行動網路</string>
     <string name="quick_settings_sound_label">聲音</string>
     <string name="quick_settings_sound_ring">響鈴</string>
-    <string name="quick_settings_sound_vibrate">震動</string>
+    <string name="quick_settings_sound_vibrate">振動</string>
     <string name="quick_settings_sound_dnd">勿擾</string>
     <string name="screenrecord_stopdot_label">顯示停止按鈕\n長按移動</string>
     <string name="screenrecord_lowquality_label">降低畫質以減少檔案大小</string>

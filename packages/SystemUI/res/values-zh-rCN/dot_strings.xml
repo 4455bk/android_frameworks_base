@@ -77,7 +77,7 @@
     <string name="qs_data_switch_changed_2">将 SIM 卡2用于移动数据</string>
     <string name="quick_settings_sound_label">声音</string>
     <string name="quick_settings_sound_ring">响铃</string>
-    <string name="quick_settings_sound_vibrate">震动</string>
+    <string name="quick_settings_sound_vibrate">振动</string>
     <string name="quick_settings_sound_dnd">勿扰</string>
     <string name="screenrecord_stopdot_label">显示停止按钮\n长按移动</string>
     <string name="screenrecord_lowquality_label">使用较低画质以节省存储空间</string>
